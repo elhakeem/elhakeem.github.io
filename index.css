@@ -1,0 +1,34 @@
+*{
+    font-family: Halant, serif;
+}
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+/* Home Main */
+#home-main {
+    max-width: 700px;
+    padding: 50px;
+    margin: 10rem auto;
+    transform: rotate(-10deg);
+    border: 15px ridge burlywood;
+    background: burlywood;
+}
+#home-main h1{
+    font-size: 50px;
+    margin: 0;
+}
+#home-main p{
+    font-size: 20px;
+}
+.home-main-links a{
+    color: rgb(0, 0, 0);
+}
+.home-main-links span{
+    font-size: 25px;
+    margin: 0 10px;
+    line-height: 1;
+}
+.home-main-links {
+    display: flex; 
+}
