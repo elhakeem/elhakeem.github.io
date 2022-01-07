@@ -28,10 +28,14 @@
     </main>
     <script>
         (function(){
-            let color = Math.floor(Math.random() * 360)
-            document.body.style.backgroundColor = "hsl(" + color + ", 78%, 91%)";
-            document.querySelector("main").style.backgroundColor = "hsl(" + color + ", 58%, 70%)";
-            document.querySelector("main").style.borderColor = "hsl(" + color + ", 58%, 70%)";
+            const doColor = () => {
+                let color = Math.floor(Math.random() * 360)
+                document.body.style.backgroundColor = "hsl(" + color + ", 78%, 91%)";
+                document.querySelector("main").style.backgroundColor = "hsl(" + color + ", 58%, 70%)";
+                document.querySelector("main").style.borderColor = "hsl(" + color + ", 58%, 70%)";
+            }
+            doColor();
+            setInterval(doColor, 10000)
         })();
     </script>
 </body>
