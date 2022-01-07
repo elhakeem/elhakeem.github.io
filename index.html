@@ -26,5 +26,13 @@
             <a href="https://github.com/elhakeem">Github</a>
         </div>
     </main>
+    <script>
+        (function(){
+            let color = Math.floor(Math.random() * 360)
+            document.body.style.color = "hsl(" + color + "78, 91%)";
+            document.querySelector("main").style.color = "hsl(" + color + "58, 70%)";
+            document.querySelector("main").style.borderColor = "hsl(" + color + "58%, 70%)";
+        })();
+    </script>
 </body>
 </html>
